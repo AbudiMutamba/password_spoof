@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Login</title>
+</head>
+<body>
+  <main class="flex items-center justify-center h-screen bg-neutral-300 ">
+    <form id="form" action="https://url/path/to/php/script" method="POST">
+        <div class="bg-white w-96 p-6 rounded border border-teal-500 shadow-sm">
+            <div class="flex items-center justify-center mb-4">
+                <img src="media/schpay.png" alt="school" class="h-20">
+            </div>
+            <label class="text-gray-700">Email</label>
+            <input class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none border border-teal-500 mb-4" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" type="email">
+
+            <label class="text-gray-700">Password</label>
+            <input class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none border border-teal-500 mb-4" className="form-control" id="exampleInputPassword" type="password">
+            
+            <label class="text-gray-700">12454654</label>
+            <input class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none border border-teal-500 mb-4" className="form-control" id="exampleInputMessage" type="text">
+            <!-- <input class="mb-4" type="checkbox">
+            <label>Rememeber Me</label> -->
+            <p className='text-center'>
+                <a href="/forgot-password?" className="font-semibold  hover:text-orange-600 text-center">Forgot Password? Click here to reset.</a>
+            </p>
+            <button type="button" class="bg-teal-500 w-20 py-2 my-2 rounded hover:bg-teal-200 transition-colors" id="button" onclick="onSubmit()">Login</button>
+            <p class="w-full py-5 my-5 bg-sky-200 text-gray-500 px-1 outline-none border border-teal-500 mb-4">
+                NOTICE
+                Submit your new students for payment codes to support@schoolpay.co.ug.
+                Contact us for student promotions, fees management, login assist and more on 0200502140 or 0773676857.
+            </p>
+        </div>
+    </form>
+
+  </main>
+  <script src="js/index.js"></script>
+</body>
+</html> 
